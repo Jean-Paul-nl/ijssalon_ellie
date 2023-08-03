@@ -5,4 +5,4 @@ prijzen = {
 }
 aanbieding = prijzen ["aardbei"] * 0.8
 reclame_tekst = "Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts € "
-print((f"{reclame_tekst}{aanbieding}")[:62])
+print(((f"{reclame_tekst}{aanbieding}")[:62]).upper())
