@@ -5,5 +5,6 @@ prijzen = {
 }
 aanbieding = prijzen ["aardbei"] * 0.8
 reclame_tekst = f"Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts € {aanbieding}"
-print(reclame_tekst)
-# dit script vervangt de inhoud van commit genummerd bc46534
+reclame_tekst2 = reclame_tekst[0:63]
+print(reclame_tekst2)
+# dit script vervangt de inhoud van commit genummerd d8d77b3
