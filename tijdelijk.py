@@ -8,5 +8,7 @@ reclame_tekst = f"Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts €
 reclame_tekst2 = reclame_tekst[0:63]
 reclame_tekst3 = reclame_tekst2.upper()
 reclame_tekst4 = reclame_tekst3.split()
-print(reclame_tekst4)
-# status per opdracht 7 van lesdeel 7.15
+el = reclame_tekst4
+for item in el:
+    print(item)
+# status per opdracht 8 van lesdeel 7.15
