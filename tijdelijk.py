@@ -12,5 +12,8 @@ reclame_tekst5 = reclame_tekst2.lower()
 reclame_tekst6 = reclame_tekst5.split()
 el = reclame_tekst6
 for item in el:
-    print(item)
-# status per opdracht 9 van lesdeel 7.15
+    if len(item) >= 5:
+        print(item.upper())
+    else:
+        print(item)
+# status per opdracht 10 van lesdeel 7.15
