@@ -7,5 +7,6 @@ aanbieding = prijzen ["aardbei"] * 0.8
 reclame_tekst = f"Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts € {aanbieding}"
 reclame_tekst2 = reclame_tekst[0:63]
 reclame_tekst3 = reclame_tekst2.upper()
-print(reclame_tekst3)
-# dit script vervangt de inhoud van commit genummerd f42a368
+reclame_tekst4 = reclame_tekst3.split()
+print(reclame_tekst4)
+# status per opdracht 7 van lesdeel 7.15
