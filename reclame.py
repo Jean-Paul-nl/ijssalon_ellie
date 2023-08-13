@@ -19,9 +19,7 @@ def gemiddelde(mijn_lijst):
 #print(gemiddelde([220,430,125,160,205,90,345]))
 def meervoudig(invoer_lijst):
     if len(invoer_lijst) > 4 and len(invoer_lijst) < 11:
-        hoog = max(invoer_lijst)
-        laag = min(invoer_lijst)
-        return [hoog, laag]
+        return laag_en_hoog(invoer_lijst)
     else:
         return "U heeft minder dan 5 of meer dan 10 waarden ingevoerd."
 #print(meervoudig([10,5,3,2,1,2,9]))
