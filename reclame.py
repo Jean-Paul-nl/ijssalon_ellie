@@ -9,3 +9,8 @@ def inkomsten_totaal(inkomsten):
         BtwBedrag = weektotaal * 0.09
     return f"Het totaal van alle inkomsten van deze week is {weektotaal} euro, waarover {BtwBedrag} euro btw betaald dient te worden."
 #print(inkomsten_totaal([220,430,125,160,205,90,345]))
+def laag_en_hoog(inkomsten):
+    hoog = max(inkomsten)
+    laag = min(inkomsten)
+    return [hoog, laag]
+#print(laag_en_hoog([220,430,125,160,205,90,345]))
