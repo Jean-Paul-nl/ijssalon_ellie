@@ -1,3 +1,4 @@
+from algemene_functies import mijn_functie_2
 def aanbieding_1(smaak, prijs, korting):
     lager = prijs - prijs * korting
     return f"Vandaag in de aanbieding: emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} euro voor {lager}0 euro"
@@ -23,3 +24,8 @@ def meervoudig(invoer_lijst):
     else:
         return "U heeft minder dan 5 of meer dan 10 waarden ingevoerd."
 #print(meervoudig([10,5,3,2,1,2,9]))
+def combinatie(invoer_lijst_2):
+    korte_lijst = laag_en_hoog(invoer_lijst_2)
+    uitvoer = mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return uitvoer
+#print(combinatie([10,5,3,2,1,2,9]))
