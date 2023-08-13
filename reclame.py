@@ -6,5 +6,6 @@ def inkomsten_totaal(inkomsten):
     weektotaal = 0
     for dag in inkomsten:
         weektotaal += dag
-    return weektotaal
+        BtwBedrag = weektotaal * 0.09
+    return f"Het totaal van alle inkomsten van deze week is {weektotaal} euro, waarover {BtwBedrag} euro btw betaald dient te worden."
 #print(inkomsten_totaal([220,430,125,160,205,90,345]))
